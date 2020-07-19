@@ -24,7 +24,7 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PU8-S0-DNp">
-                                <rect key="frame" x="420.5" y="262" width="55.5" height="54.5"/>
+                                <rect key="frame" x="420.5" y="262" width="55" height="54.5"/>
                                 <color key="tintColor" red="0.35667828750908492" green="0.66666668653488159" blue="0.44443866356578088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="checkmark.seal" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large">
@@ -116,12 +116,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="maximumValusLabel" destination="24M-PM-rdA" id="FMb-oN-RGh"/>
+                        <outlet property="minimumValueLabel" destination="cfl-8P-sgd" id="UHm-Py-ybd"/>
                         <outlet property="slider" destination="S3i-0c-qQf" id="cTq-uE-Hx3"/>
+                        <outlet property="sliderValueLabel" destination="XYj-Xc-X0G" id="hSo-5J-XE8"/>
+                        <outlet property="tryCountLable" destination="4Xf-uW-cQs" id="Xs2-eg-Wrt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-58.258928571428569" y="-68.115942028985515"/>
+            <point key="canvasLocation" x="-510" y="-2987"/>
         </scene>
     </scenes>
     <resources>
