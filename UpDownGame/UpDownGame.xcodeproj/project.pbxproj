@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C26896524C5D4240008B2F5 /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C26896424C5D4240008B2F5 /* CreditViewController.swift */; };
 		4CB6BA9A24BDE25C0071EA49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6BA9924BDE25C0071EA49 /* AppDelegate.swift */; };
 		4CB6BA9C24BDE25C0071EA49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6BA9B24BDE25C0071EA49 /* SceneDelegate.swift */; };
 		4CB6BA9E24BDE25C0071EA49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB6BA9D24BDE25C0071EA49 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C26896424C5D4240008B2F5 /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		4CB6BA9624BDE25C0071EA49 /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CB6BA9924BDE25C0071EA49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CB6BA9B24BDE25C0071EA49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4CB6BA9924BDE25C0071EA49 /* AppDelegate.swift */,
 				4CB6BA9B24BDE25C0071EA49 /* SceneDelegate.swift */,
 				4CB6BA9D24BDE25C0071EA49 /* ViewController.swift */,
+				4C26896424C5D4240008B2F5 /* CreditViewController.swift */,
 				4CB6BA9F24BDE25C0071EA49 /* Main.storyboard */,
 				4CB6BAA224BDE25D0071EA49 /* Assets.xcassets */,
 				4CB6BAA424BDE25D0071EA49 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				4CB6BA9E24BDE25C0071EA49 /* ViewController.swift in Sources */,
 				4CB6BA9A24BDE25C0071EA49 /* AppDelegate.swift in Sources */,
 				4CB6BA9C24BDE25C0071EA49 /* SceneDelegate.swift in Sources */,
+				4C26896524C5D4240008B2F5 /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.seong.UpDownGame;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.5tar.UpDownGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kr.seong.UpDownGame;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.5tar.UpDownGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
